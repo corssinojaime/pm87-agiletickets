@@ -13,6 +13,8 @@ public class Reserva {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+//Variavel removida
+
 	@ManyToOne
 	private Espetaculo espetaculo;
 }
