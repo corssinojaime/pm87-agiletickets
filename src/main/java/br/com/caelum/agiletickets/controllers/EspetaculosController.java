@@ -54,7 +54,7 @@ public class EspetaculosController {
 
 	@Get("/espetaculos")
 	public List<Espetaculo> lista() {
-		// inclui a lista de estabelecimentos
+		// inclui a lista de estabelecimentos..
 		result.include("estabelecimentos", estabelecimentos.todos());
 		return agenda.espetaculos();
 	}
